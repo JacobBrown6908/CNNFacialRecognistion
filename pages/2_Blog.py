@@ -1,9 +1,7 @@
 import streamlit as st
 
-st.title("My Blog")
+st.title("My Blog in Streamlit")
 
-st.write("I have also written a blog post about my journey building this Facial Recognition Software, "
-"and the challenges I faced along the way, on a Week by week baies."
-"Feel free to check it out!")
+blog_url = "https://jacobbrown6908.github.io/CNN-Facial_Recognistion-JacobBrown/"
+st.components.v1.iframe(blog_url, height=800, scrolling=True)
 
-st.link_button(f"My Blog","(https://jacobbrown6908.github.io/CNN-Facial_Recognistion-JacobBrown/)")
