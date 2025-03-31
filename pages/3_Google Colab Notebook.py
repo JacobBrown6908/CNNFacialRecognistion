@@ -7,3 +7,4 @@ st.write("As I've been diving into Convolutional Neural Networks, I've also been
 
 st.write("I have built out my code using my google colab notebook, Feel free to check it out! and look at some of the code that I have written!")
 
+st.link_button("Google Colab Notebook", "https://colab.research.google.com/drive/1G-7KXo_Uv_hdWE3ru8r8dvqVEJFCfctC#scrollTo=iGmehczr6iqw")
