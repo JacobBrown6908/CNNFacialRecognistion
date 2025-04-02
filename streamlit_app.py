@@ -3,11 +3,16 @@ import streamlit as st
 # Show title and description.
 st.title("Convolutional Neural Network Facial Recognition Application")
 
-st.write(
-    "This is a complex facial recognition application that uses a Convolutional Neural Network to identify different faces, "
-    "using a database of images of the same person with multiple different angles, emotions, and facial expressions throughout their lifetime. "
-    "This is a useful tool for security and law enforcement to identify people in a crowd or within a large database of images. "
-    "It can also be used with cameras on smart devices to increase security and privacy when accessing confidential information.") 
+st.write("This project involves the development of an advanced facial recognition system leveraging Convolutional Neural Networks (CNNs)"
+" to accurately identify individuals across a diverse range of images. The model is trained on a comprehensive dataset containing"
+" multiple images of the same person captured from different angles, under varying lighting conditions, and displaying a range of emotions"
+" and facial expressions over time. By extracting and analyzing intricate facial features, the system enhances recognition accuracy"
+" even in challenging real-world scenarios.")
+st.write(" ")
+st.write("This technology has significant applications in security, enabling rapid identification of individuals in large-scale"
+" image databases or crowded environments. Additionally, it can be integrated with smart device cameras to reinforce authentication protocols,"
+" enhancing security and privacy when accessing sensitive information. The system’s adaptability makes it a powerful tool for biometric "
+"verification and identity protection in both public and private sectors.") 
 
 
 
