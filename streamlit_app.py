@@ -14,6 +14,3 @@ st.write("This technology has significant applications in security, enabling rap
 " enhancing security and privacy when accessing sensitive information. The system’s adaptability makes it a powerful tool for biometric "
 "verification and identity protection in both public and private sectors.") 
 
-
-
-
