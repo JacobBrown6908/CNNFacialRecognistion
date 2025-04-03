@@ -19,7 +19,7 @@ num_classes = len(target_names)
 
 st.code(code, language="python")
 
-st.markdown('<hr style="border:2px dashed #FFFFFF;">', unsafe_allow_html=True)
+st.markdown('<hr style="border:2px dashed #000;">', unsafe_allow_html=True)
 
 
 st.subheader("Data Augmentation")
@@ -44,7 +44,7 @@ data_augmentation = tf.keras.Sequential([
 
 st.code(code, language="python")
 
-st.markdown('<hr style="border:2px dashed #FFFFFF;">', unsafe_allow_html=True)
+st.markdown('<hr style="border:2px dashed #000;">', unsafe_allow_html=True)
 
 
 st.subheader("Dynamic Classification")
@@ -65,7 +65,7 @@ train_dataset, val_dataset = load_train_val_data(
 
 st.code(code, language="python")
 
-st.markdown('<hr style="border:2px dashed #FFFFFF;">', unsafe_allow_html=True)
+st.markdown('<hr style="border:2px dashed #000;">', unsafe_allow_html=True)
 
 
 import streamlit as st
@@ -92,7 +92,7 @@ def create_simplified_face_recognition_model(
 """
 st.code(code_init, language="python")
 
-st.markdown('<hr style="border:1px dashed #FFFFFF;">', unsafe_allow_html=True)
+st.markdown('<hr style="border:1px dashed #000;">', unsafe_allow_html=True)
 
 st.write("##### Second: Convolutional Layers")
 st.write("We define the convolutional layers, which are responsible for reading the images. "
@@ -116,7 +116,7 @@ code_conv = """
 """
 st.code(code_conv, language="python")
 
-st.markdown('<hr style="border:1px dashed #FFFFFF;">', unsafe_allow_html=True)
+st.markdown('<hr style="border:1px dashed #000;">', unsafe_allow_html=True)
 
 st.write("##### Third: Flattening the Data")
 st.write("After the convolutional layers process the images, the data is flattened, "
@@ -130,7 +130,7 @@ code_flatten = """
 """
 st.code(code_flatten, language="python")
 
-st.markdown('<hr style="border:1px dashed #FFFFFF;">', unsafe_allow_html=True)
+st.markdown('<hr style="border:1px dashed #000;">', unsafe_allow_html=True)
 
 st.write("##### Fourth: Dense Layers for Pattern Recognition")
 st.write("The dense layers help the model learn patterns in the images and make final predictions. "
@@ -147,7 +147,7 @@ code_dense = """
 """
 st.code(code_dense, language="python")
 
-st.markdown('<hr style="border:1px dashed #FFFFFF;">', unsafe_allow_html=True)
+st.markdown('<hr style="border:1px dashed #000;">', unsafe_allow_html=True)
 
 st.write("##### Finally: Model Compilation")
 st.write("Finally, the model is compiled with an optimizer and a loss function. "
@@ -165,5 +165,5 @@ code_compile = """
 """
 st.code(code_compile, language="python")
 
-st.markdown('<hr style="border:2px dashed #FFFFFF;">', unsafe_allow_html=True)
+st.markdown('<hr style="border:2px dashed #000;">', unsafe_allow_html=True)
 
