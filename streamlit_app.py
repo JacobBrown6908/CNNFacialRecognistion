@@ -9,6 +9,7 @@ st.write("This project involves the development of an advanced facial recognitio
 " and facial expressions over time. By extracting and analyzing intricate facial features, the system enhances recognition accuracy"
 " even in challenging real-world scenarios.")
 st.write(" ")
+st.write(" ")
 st.write("This technology has significant applications in security, enabling rapid identification of individuals in large-scale"
 " image databases or crowded environments. Additionally, it can be integrated with smart device cameras to reinforce authentication protocols,"
 " enhancing security and privacy when accessing sensitive information. The system’s adaptability makes it a powerful tool for biometric "
