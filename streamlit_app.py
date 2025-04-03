@@ -14,3 +14,12 @@ st.write("This technology has significant applications in security, enabling rap
 " enhancing security and privacy when accessing sensitive information. The system’s adaptability makes it a powerful tool for biometric "
 "verification and identity protection in both public and private sectors.") 
 
+
+st.write(" ")
+st.write(" ")
+st.write(" ")
+st.write(" ")
+
+st.write("Example Output:")
+
+st.image("Example.png", caption="Example Output of the Facial Recognition Model", use_container_width=True)
